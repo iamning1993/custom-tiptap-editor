@@ -1,0 +1,23 @@
+<script setup>
+defineProps({
+  color: {
+    type: String,
+    default: '#000000'
+  }
+})
+</script>
+
+<template>
+  <svg width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#icon-4bfb87b452696ccc)">
+      <path d="M30.9995 8.99902L38.9995 16.999" :stroke="color" stroke-width="4" stroke-linecap="round" stroke-linejoin="bevel"/>
+      <path d="M7.99953 31.999L35.9994 4L43.9995 11.999L15.9995 39.999L5.99951 41.999L7.99953 31.999Z" :stroke="color" stroke-width="4" stroke-linecap="round" stroke-linejoin="bevel"/>
+      <path d="M30.9995 8.99902L38.9995 16.999" :stroke="color" stroke-width="4" stroke-linecap="round" stroke-linejoin="bevel"/>
+      <path d="M8.99951 31.999L15.9995 38.999" :stroke="color" stroke-width="4" stroke-linecap="round" stroke-linejoin="bevel"/>
+      <path d="M12.9995 34.999L34.9995 12.999" :stroke="color" stroke-width="4" stroke-linecap="round" stroke-linejoin="bevel"/>
+    </g>
+    <defs>
+      <clipPath id="icon-4bfb87b452696ccc"><rect width="48" height="48" fill="#FFF"/></clipPath>
+    </defs>
+  </svg>
+</template>

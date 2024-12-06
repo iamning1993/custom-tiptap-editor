@@ -9,6 +9,7 @@ import Video from './Video.vue'
 import AlignTextCenter from './AlignTextCenter.vue'
 import AlignTextLeft from './AlignTextLeft.vue'
 import AlignTextRight from './AlignTextRight.vue'
+import Pencil from './Pencil.vue'
 
 export {
   Bold,
@@ -22,4 +23,5 @@ export {
   AlignTextCenter,
   AlignTextLeft,
   AlignTextRight,
+  Pencil
 }

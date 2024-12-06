@@ -12,8 +12,11 @@ import Strike from '@tiptap/extension-strike'
 import Underline from '@tiptap/extension-underline'
 import Image from '@tiptap/extension-image'
 import TextAlign from '@tiptap/extension-text-align'
+import Placeholder from '@tiptap/extension-placeholder'
+import { Color } from '@tiptap/extension-color'
+import TextStyle from '@tiptap/extension-text-style'
 
-const keywords = shallowRef(['bold', 'italic', 'strike', 'underline', 'text-align', 'link', 'image', 'video'])
+const keywords = shallowRef(['bold', 'italic', 'strike', 'underline', 'color', 'text-align', 'link', 'image', 'video'])
 
 const editor = reactive(useEditor({
   content: '',
@@ -33,7 +36,14 @@ const editor = reactive(useEditor({
     Image,
     TextAlign.configure({
       types: ['heading', 'paragraph'],
-    })
+    }),
+    Placeholder.configure({
+      placeholder: '请输入内容......',
+    }),
+    TextStyle,
+    Color.configure({
+      types: ['textStyle'],
+    }),
   ]
 }))
 

@@ -6,4 +6,5 @@
 
 .editor-field::v-deep(.ProseMirror) {
   outline: none;
+  padding: 0 10px;
 }
