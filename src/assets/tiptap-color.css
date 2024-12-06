@@ -1,0 +1,62 @@
+:root {
+  --el-color-primary: #1677ff;
+  --el-color-primary-light-2: #0054ce;
+  --el-color-primary-light-3: #005ee5;
+  --el-color-primary-light-4: #006fff;
+  --el-color-primary-light-5: #3689ff;
+  --el-color-primary-light-7: #99c5ff;
+  --el-color-primary-light-8: #cce4ff;
+  --el-color-primary-light-9: #e3f4ff;
+  --el-color-primary-dark-2: #125fcc;
+  --el-color-success: #52c41a;
+  --el-color-success-light-3: #86d65f;
+  --el-color-success-light-5: #a9e28d;
+  --el-color-success-light-7: #cbedba;
+  --el-color-success-light-8: #dcf3d1;
+  --el-color-success-light-9: #eef9e8;
+  --el-color-success-dark-2: #429d15;
+  --el-color-warning: #faad14;
+  --el-color-warning-light-3: #fcc65b;
+  --el-color-warning-light-5: #fdd68a;
+  --el-color-warning-light-7: #fee6b9;
+  --el-color-warning-light-8: #feefd0;
+  --el-color-warning-light-9: #fff7e8;
+  --el-color-warning-dark-2: #c88a10;
+  --el-color-danger: #ff4d4f;
+  --el-color-danger-light-3: #ff8284;
+  --el-color-danger-light-5: #ffa6a7;
+  --el-color-danger-light-7: #ffcaca;
+  --el-color-danger-light-8: #ffdbdc;
+  --el-color-danger-light-9: #ffeded;
+  --el-color-danger-dark-2: #cc3e3f;
+  --el-color-error: #ff4d4f;
+  --el-color-error-light-3: #ff8284;
+  --el-color-error-light-5: #ffa6a7;
+  --el-color-error-light-7: #ffcaca;
+  --el-color-error-light-8: #ffdbdc;
+  --el-color-error-light-9: #ffeded;
+  --el-color-error-dark-2: #cc3e3f;
+  
+  --el-color-primary-text: #303133;
+  --el-color-regular-text: #606266;
+  --el-color-secondary-text: #909399;
+  --el-color-placeholder-text: #A8ABB2;
+  --el-color-disabled-text: #C0C4CC;
+
+  --el-color-darker-border: #CDD0D6;
+  --el-color-dark-border: #D4D7DE;
+  --el-color-base-border: #DCDFE6;
+  --el-color-light-border: #E4E7ED;
+  --el-color-lighter-border: #EBEEF5;
+  --el-color-extra-light-border: #F2F6FC;
+
+  --el-color-darker-fill: #E6E8EB;
+  --el-color-dark-fill: #EBEDF0;
+  --el-color-base-fill: #F0F2F5;
+  --el-color-light-fill: #F5F7FA;
+  --el-color-lighter-fill: #FAFAFA;
+  --el-color-extra-light-fill: #FAFCFF;
+  --el-color-blank-fill: #FFFFFF;
+
+  --el-color-page-background: #F2F3F5;
+}

@@ -1,0 +1,9 @@
+.tip-tap-container {
+  width: 800px;
+  margin: 100px auto;
+  border: 1px solid var(--el-color-base-border);
+}
+
+.editor-field::v-deep(.ProseMirror) {
+  outline: none;
+}

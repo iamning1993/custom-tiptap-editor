@@ -1,0 +1,18 @@
+.custom-menu {
+  display: inline-block;
+  padding: 5px 8px;
+  cursor: pointer;
+  color: var(--el-color-regular-text);
+}
+
+.custom-menu:hover {
+  background-color: var(--el-color-page-background);
+}
+
+.desc-text {
+  font-size: 11px;
+}
+
+.is-active {
+  color: var(--el-color-primary);
+}

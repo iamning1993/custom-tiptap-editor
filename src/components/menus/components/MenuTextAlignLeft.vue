@@ -1,0 +1,33 @@
+<script setup>
+import { ElSpace } from 'element-plus'
+import { AlignTextLeft } from '@/components/icons/index.js'
+import TiptapTextAlign from '@/composables/menus/TiptapTextAlign.js'
+
+defineOptions({
+  name: 'menu-text-align-left'
+})
+
+const { 
+  label,
+  isActive,
+  iconColor,
+  handleClick 
+} = TiptapTextAlign('left', '居左')
+</script>
+
+<template>
+  <div 
+    class="custom-menu"
+    :class="{ 'is-active': isActive }" 
+    @click="handleClick"
+  >
+    <el-space direction="vertical">
+      <AlignTextLeft :color="iconColor"></AlignTextLeft>
+      <span class="desc-text">{{ label }}</span>
+    </el-space>
+  </div>
+</template>
+
+<style scoped>
+@import url('@/assets/tiptap-menu.css');
+</style>
